@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Analysis Project</title>
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url('https://cdn.pixabay.com/photo/2021/01/19/14/18/youtube-5931353_960_720.jpg');
+            background-color: #f0e334;
+            color: #FFFFFF;
+        }
+
+        header {
+            background-color: #1F1F1F;
+            padding: 10px 20px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+        }
+
+        .nav-links li {
+            margin: 0 10px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #ffffff;
+            padding: 8px 15px;
+            background-color: #333333;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            background-color: #575757;
+        }
+
+        /* Main Content */
+        .container {
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 50px;
+        }
+
+        /* Buttons */
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .btn {
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            text-decoration: none;
+            color: #ffffff;
+            border-radius: 8px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        /* Button Colors */
+        .analytics {
+            background-color: #FF5733;
+        }
+
+        .predictor {
+            background-color: #33FF57;
+        }
+
+        .contact {
+            background-color: #3357FF;
+        }
+
+        /* Button Hover Effects */
+        .btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1F1F1F;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Welcome to YouTube Analysis Project</h1>
+            <div class="buttons">
+                <a href="analytical" class="btn analytics">YouTube Analytics</a>
+                <a href="prediction" class="btn predictor">Like Predictor</a>
+                <a href="contact" class="btn contact">Contact Us</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 YouTube Analysis Project. All rights reserved.</p>
+    </footer>
+</body>
+</html>
